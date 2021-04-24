@@ -1,0 +1,1 @@
+winget install Zoom.Zoom  ; winget install Microsoft.Teams  ; winget install Discord.Discord  ; winget install Microsoft.OneDrive  ; winget install Google.Chrome  ; winget install Microsoft.WindowsTerminalPreview  ; winget install Microsoft.PowerToys  ; winget install Microsoft.VisualStudioCode.Insiders 
