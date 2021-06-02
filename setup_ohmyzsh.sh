@@ -3,7 +3,7 @@ set -e
 
 # install zshrc
 sudo apt install -Y zsh
-sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 source ~/.zshrc
 
 # Install "neccesary" plugins
