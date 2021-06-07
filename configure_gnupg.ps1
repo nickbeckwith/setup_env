@@ -1,5 +1,5 @@
 mkdir %HOMEPATH%\AppData\Roaming\gnupg
-enable-putty-support" | Out-File -Encoding ascii $ENV:APPDATA\gnupg\gpg-agent.conf
+"enable-putty-support" | Out-File -Encoding ascii $ENV:APPDATA\gnupg\gpg-agent.conf
 echo "If configured properly, card status should be shown below"
 echo "---------------------------------------------------------"
 gpg --card-status
