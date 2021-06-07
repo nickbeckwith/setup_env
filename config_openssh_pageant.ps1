@@ -6,4 +6,4 @@ wget https://github.com/benpye/wsl-ssh-pageant/releases/download/20201121.2/wsl-
 Set-Content "$ENV:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\gpg-agent.bat" "gpg-connect-agent killagent /bye`ngpg-connect-agent /bye"
 gpg-agent.exe
 # Create startup script for wsl-ssh-pageant
-Set-Content "C:\Users\nick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\start_ssh_pageant.bat" 'start C:\Users\nick\.ssh\wsl-ssh-pageant-amd64-gui.exe --winssh ssh-pageant --systray'
+Set-Content "$ENV:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\start_ssh_pageant.bat" 'start C:\Users\nick\.ssh\wsl-ssh-pageant-amd64-gui.exe --winssh ssh-pageant --systray'
